@@ -35,6 +35,7 @@ const SearchContainer = styled.div`
 `;
 
 const Input = styled.input`
+    outline: none;
     border: none;
     width: 300px;
 `;
