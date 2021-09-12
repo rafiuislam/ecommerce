@@ -28,11 +28,16 @@ const Title = styled.h1`
 `;
 const Button = styled.button`
     border: none;
-    padding: 15px;
+    padding: 10px;
     font-weight: 600;
     color: grey;
     background-color: white;
     cursor: pointer;
+    transition: all 0.5s ease;
+    &:hover {
+        background-color: #e9f5f5;
+        transform: scale(1.5);
+    }
 `;
 
 const CategoryItem = ({ item }) => {
