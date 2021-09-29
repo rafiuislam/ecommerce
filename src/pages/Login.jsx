@@ -35,6 +35,7 @@ const Title = styled.h1`
 const Form = styled.form`
     display: flex;
     flex-direction: column;
+    // align-items: center;
 `;
 
 const Input = styled.input`
@@ -45,19 +46,22 @@ const Input = styled.input`
 `;
 
 const Button = styled.button`
+    align-self: center;
     width: 35%;
     border: none;
     padding: 15px 20px;
     cursor: pointer;
-    background-color: teal;
+    background-color: #198d8d;
     color: white;
     margin-bottom: 10px;
+    margin-top: 5px;
     &:hover {
-        background-color: #198d8d;
+        background-color: teal;
         color: white;
     }
 `;
 const Link = styled.a`
+    align-self: center;
     margin: 5px 0px;
     font-size: 14px;
     cursor: pointer;

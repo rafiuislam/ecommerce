@@ -15,7 +15,7 @@ const Container = styled.div`
 `;
 
 const Wrapper = styled.div`
-    width: 30%;
+    width: 20%;
     padding: 20px;
     background-color: white;
 `;
@@ -31,6 +31,7 @@ const Title = styled.h1`
 const Form = styled.form`
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
 `;
 
 const Input = styled.input`
@@ -46,15 +47,16 @@ const Agreement = styled.span`
 `;
 
 const Button = styled.button`
+    align-self: center;
     width: 35%;
     border: none;
     padding: 15px 20px;
     cursor: pointer;
-    background-color: teal;
+    background-color: #198d8d;
     color: white;
 
     &:hover {
-        background-color: #198d8d;
+        background-color: teal;
         color: white;
     }
 `;
