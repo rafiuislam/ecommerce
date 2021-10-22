@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { ChevronLeftOutlined, ChevronRightOutlined } from "@material-ui/icons";
 import styled from "styled-components";
 import { sliderItems } from "../data";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
     width: 100%;
@@ -10,6 +11,7 @@ const Container = styled.div`
     position: relative;
     overflow: hidden;
     overflow: hidden;
+    ${mobile({ display: "none" })}
 `;
 
 const Arrow = styled.div`
